@@ -18,7 +18,7 @@ library(installr)
 library(MuDataSeurat)
 
 # Set default folder director 
-setwd("D:/Guardant/other/case study/pilot_nuclei/pilot_nuclei")
+setwd("D:/case study/pilot_nuclei/pilot_nuclei")
 
 # Read 10x data
 pbmc.data <- Read10X(data.dir = "./")
